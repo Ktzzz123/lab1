@@ -40,6 +40,10 @@ html,body{
 
 }
 .list__item{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   
   width: 1200px;
   grid-gap: 20px;
@@ -95,7 +99,15 @@ margin-right: 2px;
 .star.starYellow{
   width: 16px;
   height: 16px;
-  background-image: url(https://png.pngtree.com/png-clipart/20201128/ourmid/pngtree-yellow-stars-png-image_2445660.jpg);
+  background-image: url(https://iconarchive.com/download/i103490/paomedia/small-n-flat/star.ico);
+  background-color:yellow;
+  border:black 1px;
+}
+.star.starGrey{
+  width: 16px;
+  height: 16px;
+  /* background-image: url(https://png.pngtree.com/png-clipart/20201128/ourmid/pngtree-yellow-stars-png-image_2445660.jpg); */
   object-fit: cover;
-  background-color: #fff;
+  background-color:gray;
+  border:black 1px;
 }
