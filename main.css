@@ -72,9 +72,6 @@ html,body{
   transition-delay: 1s;
   transform-origin: right;
 }
-.list__item:hover .picture img {
-  transform: scale(1.5);
-}
 .product-name{
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
